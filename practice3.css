@@ -1,0 +1,37 @@
+body{
+    background-color: #2a2424;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+button{
+    display: block;
+    padding: 8px 16px;
+    font-size: 50px;
+    color: #2a2424;
+    cursor: pointer;
+    border:1px solid #2a2424;
+    border-radius: 45px;
+    width: 500px;
+    height: 400px;
+    transition: all 0.2s;
+    background-color: #f3a7ef;
+}
+
+/* 鼠标放上去变色 */
+button:hover{
+    background-color: #e63a7a;
+    color: #ffffff;
+}
+
+a {
+  text-decoration: none; /* 去掉下划线 */
+}
+
+/* 鼠标点下去缩小 */
+button:active{
+    transform: scale(0.98);
+}
